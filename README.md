@@ -1,3 +1,5 @@
+https://img.shields.io/badge/version-1.0-f39f37
+
 # CloudsClassification
 Clouds classification analysis from satellite images based on Kaggle Competition. 
 
