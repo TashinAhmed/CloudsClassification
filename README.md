@@ -1,5 +1,7 @@
-<img="https://storage.googleapis.com/kaggle-media/competitions/MaxPlanck/Teaser_AnimationwLabels.gif">
+
 # CloudsClassification
+
+<img="https://storage.googleapis.com/kaggle-media/competitions/MaxPlanck/Teaser_AnimationwLabels.gif">
 Clouds classification analysis from satellite images based on Kaggle Competition. 
 
 All notebooks were initially prepared from publicly shared kernels mentioned in this <a href="https://github.com/TashinAhmed/CloudsClassification/blob/main/EfficientUNet.ipynb">notebook</a>.
