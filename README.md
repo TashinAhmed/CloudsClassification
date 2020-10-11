@@ -1,5 +1,6 @@
 ![alt text](https://storage.googleapis.com/kaggle-media/competitions/MaxPlanck/Teaser_AnimationwLabels.gif)
-# CloudsClassification
+![alt text](https://img.shields.io/badge/version-1.0-f39f37)
+# Clouds Classification
 
 Clouds classification analysis from satellite images based on Kaggle Competition. 
 
