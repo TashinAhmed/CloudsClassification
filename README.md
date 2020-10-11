@@ -12,3 +12,64 @@ RG: https://www.researchgate.net/publication/344410350_Classification_and_unders
 arXiv: https://arxiv.org/pdf/2009.12931.pdf
 
 This paper implements classification of satellite images of cloud structures into four different classes: Sugar, Gravel, Fish and Flower. 6 versions of EfficientNet from B0 to B5 were used as encoder and UNet as decoder has been applied. Dice coefficient was used as the evaluation metric. The scores used were compared with both public and private LB scores of Kaggle competition. By using a segmentation model like UNet in a classification problem, it was proven that with a good encoder it is possible to achieve good performance from the dataset. Although EfficientNet was used in this paper, it could be replaced with a different model as well but was not tested in this research. Also, a good segmentation of the images boost the output of the classification drastically, which was also proven in this paper. In future, estimation of the distribution of classes and adjustment of the validation set could be implemented accordingly, although it would only be ideal for the competition. As the complex architectures of EfficientNet gave less appreciating results because of default coefficients, altering these hyperparameters according to the dataset will hopefully improve the outcome. Exploring gradient weighted class activation mapping to generate a baseline, which is a class explainability technique, could be achieved.
+
+Kaggle LB score on final experimental setting:
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0pky" rowspan="2">EfficientNet<br>Version</th>
+    <th class="tg-0pky" rowspan="2">Cross<br>Validation</th>
+    <th class="tg-0pky" colspan="2">LB score</th>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Private</td>
+    <td class="tg-0pky">Public</td>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">B0</td>
+    <td class="tg-0pky">0.6654</td>
+    <td class="tg-0pky">0.6602</td>
+    <td class="tg-0pky">0.6626</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">B1</td>
+    <td class="tg-0pky">0.6601</td>
+    <td class="tg-0pky">0.6553</td>
+    <td class="tg-0pky">0.6598</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">B2</td>
+    <td class="tg-0pky">0.6589</td>
+    <td class="tg-0pky">0.6570</td>
+    <td class="tg-0pky">0.6578</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">B3</td>
+    <td class="tg-0pky">0.6588</td>
+    <td class="tg-0pky">0.6500</td>
+    <td class="tg-0pky">0.6582</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">B4</td>
+    <td class="tg-0pky">0.6425</td>
+    <td class="tg-0pky">0.6417</td>
+    <td class="tg-0pky">0.6421</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">B5</td>
+    <td class="tg-0pky">0.6322</td>
+    <td class="tg-0pky">0.6319</td>
+    <td class="tg-0pky">0.6333</td>
+  </tr>
+</tbody>
+</table>
