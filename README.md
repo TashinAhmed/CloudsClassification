@@ -66,3 +66,12 @@ This paper implements classification of satellite images of cloud structures int
   </tr>
 </tbody>
 </table>
+
+
+Cite the work:
+@article{ahmed2020classification,
+  title={Classification and understanding of cloud structures via satellite images with EfficientUNet},
+  author={Ahmed, Tashin and Sabab, Noor Hossain Nuri},
+  journal={arXiv preprint arXiv:2009.12931},
+  year={2020}
+}
