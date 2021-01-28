@@ -15,59 +15,6 @@ arXiv: https://arxiv.org/pdf/2009.12931.pdf
 
 
 
-<strong>Kaggle LB score on final experimental setting (EfficientUNet):</strong>
-
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-0pky" rowspan="2">EfficientNet<br>Version</th>
-    <th class="tg-0pky" rowspan="2">Cross<br>Validation</th>
-    <th class="tg-0pky" colspan="2">LB score</th>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Private</td>
-    <td class="tg-0pky">Public</td>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-0pky">B0</td>
-    <td class="tg-0pky">0.6654</td>
-    <td class="tg-0pky">0.6602</td>
-    <td class="tg-0pky">0.6626</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">B1</td>
-    <td class="tg-0pky">0.6601</td>
-    <td class="tg-0pky">0.6553</td>
-    <td class="tg-0pky">0.6598</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">B2</td>
-    <td class="tg-0pky">0.6589</td>
-    <td class="tg-0pky">0.6570</td>
-    <td class="tg-0pky">0.6578</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">B3</td>
-    <td class="tg-0pky">0.6588</td>
-    <td class="tg-0pky">0.6500</td>
-    <td class="tg-0pky">0.6582</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">B4</td>
-    <td class="tg-0pky">0.6425</td>
-    <td class="tg-0pky">0.6417</td>
-    <td class="tg-0pky">0.6421</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">B5</td>
-    <td class="tg-0pky">0.6322</td>
-    <td class="tg-0pky">0.6319</td>
-    <td class="tg-0pky">0.6333</td>
-  </tr>
-</tbody>
-</table>
 
 
 <strong>Cite the work:</strong>
