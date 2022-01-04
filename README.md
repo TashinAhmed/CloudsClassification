@@ -1,3 +1,4 @@
+Published in: [SN COMPUTER SCIENCE](https://link.springer.com/article/10.1007/s42979-021-00981-2)
 ![alt text](https://storage.googleapis.com/kaggle-media/competitions/MaxPlanck/Teaser_AnimationwLabels.gif)
 
 
