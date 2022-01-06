@@ -1,11 +1,12 @@
+
+
+![alt text](https://storage.googleapis.com/kaggle-media/competitions/MaxPlanck/Teaser_AnimationwLabels.gif)
+
 Published in and paper link: [SN COMPUTER SCIENCE](https://link.springer.com/article/10.1007/s42979-021-00981-2)
 
 DOI: https://doi.org/10.1007/s42979-021-00981-2
 
 Dataset paperswithcode: https://paperswithcode.com/sota/satellite-image-classification-on-nasa
-
-![alt text](https://storage.googleapis.com/kaggle-media/competitions/MaxPlanck/Teaser_AnimationwLabels.gif)
-
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/classification-and-understanding-of-cloud/satellite-image-classification-on-nasa)](https://paperswithcode.com/sota/satellite-image-classification-on-nasa?p=classification-and-understanding-of-cloud)
 ![alt text](https://img.shields.io/badge/version-1.0-f39f37)
