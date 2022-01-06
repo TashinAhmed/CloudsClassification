@@ -1,4 +1,6 @@
-Published in: [SN COMPUTER SCIENCE](https://link.springer.com/article/10.1007/s42979-021-00981-2)
+Published in and paper link: [SN COMPUTER SCIENCE](https://link.springer.com/article/10.1007/s42979-021-00981-2)
+
+DOI: https://doi.org/10.1007/s42979-021-00981-2
 
 Dataset paperswithcode: https://paperswithcode.com/sota/satellite-image-classification-on-nasa
 
