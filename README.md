@@ -23,7 +23,7 @@ arXiv: https://arxiv.org/pdf/2009.12931.pdf
 
 
 
-<strong>Cite the work (arXiv): [Follow [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aw_mTesAAAAJ&alert_preview_top_rm=2&citation_for_view=aw_mTesAAAAJ:WF5omc3nYNoC)]</strong>
+<strong>Cite the work: [Follow [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aw_mTesAAAAJ&alert_preview_top_rm=2&citation_for_view=aw_mTesAAAAJ:WF5omc3nYNoC)]</strong>
 ```
 @article{ahmed2022classification,
   title={Classification and understanding of cloud structures via satellite images with EfficientUNet},
