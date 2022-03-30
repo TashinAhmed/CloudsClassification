@@ -25,10 +25,14 @@ arXiv: https://arxiv.org/pdf/2009.12931.pdf
 
 <strong>Cite the work (arXiv): [Follow [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aw_mTesAAAAJ&alert_preview_top_rm=2&citation_for_view=aw_mTesAAAAJ:WF5omc3nYNoC)]</strong>
 ```
-@article{ahmed2020classification,
+@article{ahmed2022classification,
   title={Classification and understanding of cloud structures via satellite images with EfficientUNet},
   author={Ahmed, Tashin and Sabab, Noor Hossain Nuri},
-  journal={arXiv preprint arXiv:2009.12931},
-  year={2020}
+  journal={SN Computer Science},
+  volume={3},
+  number={1},
+  pages={1--11},
+  year={2022},
+  publisher={Springer}
 }
 ```
